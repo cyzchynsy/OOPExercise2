@@ -1,6 +1,6 @@
 public class Adult extends Person{
 
-    String job;
+    protected String job;
 
     Adult (String name, String sex, int age, String job) {
         super(name, sex, age);
